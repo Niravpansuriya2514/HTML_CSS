@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body
+{
+  background-color: black;
+}
+
+.container 
+{
+  padding: 16px;
+  background-color: white;
+}
+
+input[type=text], input[type=password] 
+{
+  width: 100%;
+  padding: 15px;
+  margin: 25px ;
+  display: inline-block;
+  border: none;
+  background:blanchedalmond;
+}
+
+input[type=text]:focus, input[type=password]:focus 
+{
+  background-color:aliceblue;
+  outline: none;
+}
+
+hr 
+{
+  border: 1px solid black;
+
+}
+
+.registerbtn 
+{
+  background-color:black;
+  color: white;
+  padding: 10px;
+  width: 100%;
+
+}
+
+</style>
+</head>
+<body>
+
+<form action="//www.tops-int.com">
+  <div class="container">
+    <h1>Registration form</h1>
+    <hr>
+
+    <b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+
+    <b>confarm Password</b></label>
+    <input type="password" placeholder="confarm Password" name="confarm password" id="confarm password" required>
+    <hr>
+
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+</form>
+
+</body>
+</html>
